@@ -1,0 +1,243 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.342);
+    height: 80px;
+    padding: 1rem;
+}
+
+.logo img {
+    max-width: 150px;
+    cursor: pointer;
+}
+
+nav .navigation {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navigation .nav-items {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.navigation .nav-items a {
+    color: rgba(0, 47, 255, 0.63);
+}
+
+.Bugger {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    cursor: pointer;
+    gap: 5px;
+    width: 100px;
+}
+
+.Bugger .bugger-items {
+    display: none;
+    width: 20px;
+    height: 2px;
+    background-color: rgb(8, 8, 8);
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    padding-top: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 156);
+    width: 100%;
+    min-height: 100px; /* ou o valor que achar melhor */
+    padding-inline: 1rem;
+    margin-top: 2rem;
+}
+
+.footer-icones {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icones p {
+    color: #fff;
+
+}
+
+.footer-icones .content-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-icones .content-icons p {
+    font-size: 18px;
+}
+
+.footer-icones .content-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.main-video {}
+
+
+@media (max-width: 430px) {
+    .Bugger .bugger-items {
+        display: flex;
+    }
+
+    nav {
+        display: none;
+    }
+
+    footer {
+        align-items: start;
+        flex-direction: column;
+    }
+    .footer-icones{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+    }
+    .footer-logo{
+       flex-direction: column;
+    }
+    .footer-logo-text {
+        order: 2
+    }
+
+    .footer-logo-img {
+        order: 1;
+    }
+    .footer-logo{
+        gap: 4rem;
+    }
+}
+
+
+
+
+.main-video{
+    width: 100%;
+    margin: 0;
+}
+.main-video iframe{
+    width: 100%;
+}
+
+.Cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 2rem;
+    gap: 3rem;
+}
+
+.Cards-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+
+.card .card-content{
+    width: 100%;
+
+}
+.card-text{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+.card-text .card-checkbox{
+    padding-top: 7px;
+}
+.card-text .card-checkbox input{
+    width: 35px;
+    height: 30px;
+}
+.card .card-content a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: blue;
+}
+.card .card-content p{
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+
+.Cards-button button{
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color:skyblue;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.875rem;
+    cursor: pointer;
+
+}
+
+.content{
+    display: flex;
+}
+.content-formulario,
+.content-img{
+   flex: 1;
+}
+
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.content-formulario form input{
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    padding: 0.5rem;
+}
+.content-formulario form input:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+select{
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    padding: 0.5rem;
+}
+select:focus{
+    outline: none;
+    border: 1px solid blue;
+}
+textarea{
+    resize: none;
+}
