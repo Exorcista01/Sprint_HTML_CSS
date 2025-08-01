@@ -3,32 +3,48 @@
    License: none (public domain)
 */
 
-*{
+* {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	font-family: sans-serif;
+
 }
 
-html, body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+html,
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
-ol, ul {
+
+body {
+	min-height: 100%;
+	width: 100%;
+}
+
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+
+blockquote,
+q {
 	quotes: none;
 }
+
 a {
 	text-decoration: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: '';
 	content: none;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;

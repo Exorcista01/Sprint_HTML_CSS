@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/contato.css">
 </head>
+
 <body>
-   <header>
-    <div class="logo">
-        <a href="index.html"><img src="img/ford-96.png" alt=""></a>
-    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="img/logo-ford-256.png" alt=""></a>
+        </div>
 
-    <nav>
-        <ul class="navigation">
-            <li class="nav-items"><a href="index.html">Home</a></li>
-            <li class="nav-items"><a href="lancamento.html">Lançamento</a></li>
-            <li class="nav-items"><a href="Contato.html">Contato</a></li>
-        </ul>
-    </nav>
+        <nav>
+            <ul class="navigation">
+                <li class="nav-items"><a href="index.html">Home</a></li>
+                <li class="nav-items"><a href="lancamento.html">Lançamento</a></li>
+                <li class="nav-items"><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
 
-    <div class="Bugger">
-        <div class="bugger-items"></div>
-        <div class="bugger-items"></div>
-        <div class="bugger-items"></div>
-    </div>
-   </header>
+        <div class="Bugger">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label-menu">
+                <img src="img/cardapio.png" alt="" width="28" height="28">
+            </label>
+        
+            <div class="content-bugger">
+                <ul class="bugger-listas">
+                    <li class="content-bugger-items"><a href="index.html">Home</a></li>
+                    <li class="content-bugger-items"><a href="lancamento.html">Lançamento</a></li>
+                    <li class="content-bugger-items"><a href="">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
 
-   <main>
+    <main>
         <div class="content">
             <div class="content-img">
                 <img src="img/xls 2.2 diesel.jpg" alt="">
@@ -38,19 +50,19 @@
                     <h1>Sobre você</h1>
                     <label for=""></label>
 
-                    <input type="text" placeholder="NOME*">
+                    <input type="text" placeholder="NOME*" class="content-form-ent">
                     <label for=""></label>
 
-                    <input type="email" placeholder="SOBRENOME*">
+                    <input type="email" placeholder="SOBRENOME*" class="content-form-ent">
                     <label for=""></label>
 
-                    <input type="text" placeholder="EMAIL*">
+                    <input type="text" placeholder="EMAIL*" class="content-form-ent">
                     <label for=""></label>
 
-                    <input type="text" placeholder="CPF*" max="11" min="0">
+                    <input type="text" placeholder="CPF*" max="11" min="0" class="content-form-ent">
                     <label for=""></label>
 
-                    <input type="tel" placeholder="TELEFONE*" min="0">
+                    <input type="tel" placeholder="TELEFONE*" min="0" class="content-form-ent">
                     <label for=""></label>
 
                     <select name="" id="">
@@ -60,31 +72,48 @@
                         <option value="">Sugestão</option>
                     </select>
 
-                    <label for="">Mensagem:</label>
+                    <label class="mensagem" for="">Mensagem:</label>
                     <textarea name="" id="" cols="10" rows="5" placeholder="DIGITE AQUI SUA MENSAGEM*"></textarea>
 
-                    <button>Enviar</button>
+                    <div class="form-content-btn">
+                        <button class="form-btn">Enviar</button>
+                    </div>
                 </form>
             </div>
-            
+
         </div>
-   </main>
+    </main>
 
 
 
-   <footer>
-    <div class="footer-icones">
-        <p>Redes Sociais</p>
-        <div class="content-icons">
-            <img src="img/facebook-50.png" alt="">
-            <img src="img/instagram-logo-50.png" alt="">
-            <img src="img/youtube-squared-50.png" alt="">
+    <footer>
+        <div class="footer-icones">
+            <div class="content-icons">
+                <div class="content-icons-text">
+                    <p>Redes Sociais: </p>
+                </div>
+
+                <div class="content-icons-img">
+                    <a href="https://www.facebook.com/ford/?locale=pt_BR" target="_blank"><img src="img/facebook-50.png"
+                            alt=""></a>
+                    <a href="https://www.instagram.com/ford/" target="_blank"><img src="img/instagram-logo-50.png"
+                            alt=""></a>
+                    <a href="https://www.youtube.com/user/ford" target="_blank"><img src="img/youtube-squared-50.png"
+                            alt=""></a>
+                </div>
+            </div>
         </div>
-    </div>
 
-    <div class="logo">
-        <img src="img/ford-96.png" alt="">
-    </div>
-   </footer>
+        <div class="footer-copyriter">
+            <p>© 2025 Ford Motor Company</p>
+        </div>
+
+        <div class="footer-logo">
+            <div class="footer-logo-img">
+                <a href="index.html"><img src="img/ford-96.png" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>

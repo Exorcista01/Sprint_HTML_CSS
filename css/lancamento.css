@@ -1,0 +1,73 @@
+.main-video {
+    width: 100%;
+    margin: 0;
+}
+
+.main-video iframe {
+    width: 100%;
+}
+
+.Cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-block: 2rem;
+    gap: 3rem;
+}
+
+.Cards-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.card .card-content {
+    width: 100%;
+}
+
+.card-text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-text .card-checkbox {
+    padding-top: 7px;
+}
+
+.card-text .card-checkbox input {
+    width: 35px;
+    height: 30px;
+}
+
+.card .card-content a {
+    font-size: 1rem;
+    font-weight: 500;
+    color: blue;
+}
+
+.card .card-content p {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.Cards-button button,
+.form-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #0348f7;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
+
+.Cards-button button:hover,
+.form-btn:hover {
+    background-color: #1A357C;
+}
+
