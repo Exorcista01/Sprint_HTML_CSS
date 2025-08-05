@@ -67,3 +67,16 @@ textarea {
     align-items: center;
     justify-content: end;
 }
+
+.Cards-button button,
+.form-btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #0348f7;
+    color: #fff;
+    font-weight: 700;
+    font-size: 0.875rem;
+    cursor: pointer;
+}
